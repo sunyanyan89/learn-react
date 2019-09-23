@@ -16,6 +16,18 @@ class LikesButton extends React.Component {
     })
   }
 
+  componentDidMount() {
+    console.log('componentDidMount');
+  }
+
+  componentDidUpdate() {
+    console.log('componentDidUpdate');
+  }
+
+  componentWillUnmount() {
+    console.log('componentDidUnmount');
+  }
+
   render() {
     return (
       <div className="likes-button-component">
