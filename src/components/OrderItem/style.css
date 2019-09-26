@@ -1,6 +1,8 @@
 .orderItem {
-  display: flex;
   margin-top: 10px;
+}
+.orderItem__container {
+  display: flex;
 }
 .orderItem__picContainer {
   padding-right: 10px;
@@ -61,4 +63,10 @@
 }
 .orderItem__btn--gray {
   background-color: #999;
+}
+.orderItem__star {
+  color: #999;
+}
+.orderItem__star--light {
+  color: #e9203d;
 }
